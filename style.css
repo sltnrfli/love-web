@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffd6e8, #fff1f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* CARD */
+.container {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 24px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 25px 50px rgba(255, 77, 136, 0.25);
+  animation: fadeIn 0.6s ease;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #ff4d88;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+/* BUTTON GROUP */
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* BUTTON */
+.btn {
+  border: none;
+  padding: 14px;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.yes {
+  background: #ff4d88;
+  color: white;
+}
+
+.no {
+  background: #f2f2f2;
+}
+
+.next {
+  background: #ff85b3;
+  color: white;
+  margin-top: 16px;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.hidden {
+  display: none;
+}
+
+/* DESKTOP IMPROVEMENT */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn-group {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn {
+    min-width: 140px;
+  }
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
