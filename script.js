@@ -7,11 +7,11 @@ const music = document.getElementById("bgMusic");
 const reasons = [
   "Aku juga kangen kamu 🤍",
   "Peluk virtual dulu sini 🫂",
-  "Hari aku lebih enak kalau ada kamu",
-  "Aku nyaman sama kamu",
-  "Kamu itu rumah buat aku 🏡",
-  "Kalau sama kamu, aku tenang",
-  "Aku bersyukur punya kamu 💕",
+  "Jangan Sedih-Sedih ya Ayanggg 💖",
+  "Sayang Ayang Banyak banyak 🥰",
+  "Ayang itu rumah buat aku 🏡",
+  "Aku bersyukur punya ayangg 💕",
+  "Maacih dah sayang akuu 😘",
 ];
 
 // tombol ENGGAK kabur
