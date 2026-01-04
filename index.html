@@ -10,8 +10,14 @@
     />
   </head>
   <body>
+    <!-- MUSIK -->
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+
     <div class="container" id="page1">
-      <h1>Kamu lagi kangen aku ya? 🥺</h1>
+      <h1>
+        HALLOW <span class="name">AYANGG</span> 💕 <br />Kamu Kangen Aku Ga? 🥺
+      </h1>
+
       <div class="btn-group">
         <button class="btn yes" onclick="goToLove()">IYA 💖</button>
         <button class="btn no" id="noBtn">ENGGAK 😶</button>
@@ -20,6 +26,10 @@
 
     <div class="container hidden" id="page2">
       <h1 id="loveText">Aku juga kangen kamu 🤍</h1>
+
+      <button class="btn next" onclick="toggleMusic()">
+        🎵 Play / Pause Musik
+      </button>
       <button class="btn next" onclick="nextReason()">Klik lagi dong 😘</button>
     </div>
 
